@@ -1,0 +1,9 @@
+[
+    {
+      "id": 1,
+      "method": "switch.toggle",
+        "params": {
+            "id": 0
+        }
+    }
+]

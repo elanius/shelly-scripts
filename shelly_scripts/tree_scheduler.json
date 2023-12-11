@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "method": "Schedule.Create",
+    "params": {
+      "timespec": "0 0 16 * * *",
+      "calls": [
+        {
+          "method": "Switch.Set",
+          "params": {
+            "id": 0,
+            "on": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "method": "Schedule.Create",
+    "params": {
+      "timespec": "0 0 0 * * *",
+      "calls": [
+        {
+          "method": "Switch.Set",
+          "params": {
+            "id": 0,
+            "on": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "method": "Schedule.Create",
+    "params": {
+      "timespec": "0 0 6 * * *",
+      "calls": [
+        {
+          "method": "Switch.Set",
+          "params": {
+            "id": 0,
+            "on": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "method": "Schedule.Create",
+    "params": {
+      "timespec": "0 0 7 * * *",
+      "calls": [
+        {
+          "method": "Switch.Set",
+          "params": {
+            "id": 0,
+            "on": false
+          }
+        }
+      ]
+    }
+  }
+]
